@@ -1,0 +1,116 @@
+body {
+    text-align: left;
+    background-image: url('img/bg.jpg');
+    background-attachment: fixed;
+    background-color: black;
+    font-size: 87.5%;
+    font-family: Arial, 'Lucida Sans Unicode';
+    padding: 5%;
+    margin-bottom: 2px;
+    color: white;
+}
+.wrapper{
+    background-color: black;
+}
+.logo{
+    margin-left: 0px;
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 100%;
+    }
+a{
+    text-decoration: none;
+    color: white;
+}
+a:link, a:visited{
+    color: black;
+}
+a:hover, a:active{
+    background-color: yellow;
+}
+
+.body{
+    margin: 0 auto;
+    width: 70%;
+    clear: both; 
+    background-color: black;
+}
+.mainHeader img{
+    height: auto;
+    margin-top: 2%;
+    margin-bottom: 0;
+    background-image: url ('img/header.gif');
+}
+.mainHeader nav{
+    height: 40px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    margin-bottom: 0;
+    margin-top: 0; 
+    float: right;
+
+}
+.mainHeader nav ul{
+    list-style: none;
+    margin: 0 auto;
+}
+.mainHeader nav ul li{
+    float: left;
+    display: inline;
+    color: white;
+}
+.mainHeader nav a:link, .mainHeader nav a:visited{
+    display: inline-block;
+    padding: 10px 25px;
+    height: 20px;
+}
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a.visited{
+    background-color: yellow;
+    text-shadow: none;
+    color: white;
+}
+.mainHeader nav ul li a{
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+.maincontent{
+    width: 30%;
+    background-color: gray;
+    border-top-color: yellow;
+    padding: 2%; 
+}
+.sidebottom{
+    width: 30%;
+    background-color: gray;
+    border-top-color: yellow;
+    padding: 2%; 
+}
+.text{
+    color: black;
+    background-color: yellow;
+    height: 4%;
+}
+.mainHead{
+        background-image: url('img/header-bg.gif');
+        
+}
+.mainfooter{
+    background-color: gray;
+    margin-bottom: 5%;
+    width: 95%;
+    height: 50px;
+    margin-top: 0;
+    text-align: center;
+    }
+.content {
+    width: 50%;
+    background-color: gray;
+    float: right;
+}
+.image{
+    float: right;
+    padding: 5%;
+}
